@@ -32,7 +32,7 @@
     }
 
     .image-container:hover img {
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
   </style>
 </head>
@@ -58,12 +58,13 @@
       </div>
     </div>
   </div>
+  <hr>
   <div class="container">
-    <hr>
+    
   </div>
   <div class=" text-center fw-bold " style="font-family: 'Playfair Display', serif; font-size:40px">The Times Of India
   </div>
-  <nav class="navbar navbar-expand-lg  bg-danger text-body-secondary py-2">
+  <nav class="navbar navbar-expand-lg  bg-danger text-body-secondary py-2 position-sticky top-0 z-3">
     <div class="container-fluid ">
       <a class="navbar-brand h1 pt-3 text-white" href="#">India News</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -73,10 +74,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">About</a>
+            <a class="nav-link text-white" href="#about">About</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
@@ -84,10 +85,10 @@
               Country
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">India</a></li>
-              <li><a class="dropdown-item" href="#">France</a></li>
-              <li><a class="dropdown-item" href="#">Brazil</a></li>
-              <li><a class="dropdown-item" href="#">Japan</a></li>
+              <li><a class="dropdown-item" href="#india">India</a></li>
+              <li><a class="dropdown-item" href="#france">France</a></li>
+              <li><a class="dropdown-item" href="#brazil">Brazil</a></li>
+              <li><a class="dropdown-item" href="#japan">Japan</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -95,7 +96,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white">Crimes News</a>
+            <a class="nav-link text-white" href="#crime">Crimes News</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -105,6 +106,8 @@
       </div>
     </div>
   </nav>
+
+  
   <!-- section-2 -->
   <!-- <div class="container"> -->
   <p class="text-body-secondary fw-bold ">TRENDING NEWS IN INDIA</p>
@@ -150,6 +153,7 @@
   </div>
 
   <!-- sec-2 -->
+  <div id="home"></div>
   <div class="container  ">
     <div class="row">
       <div class="col-lg-6 col-12 border-end">
@@ -157,18 +161,18 @@
           dip to 4.709</p>
         <div class="image-container ">
           <img class="sec-3-image"
-            src="https://static.toiimg.com/thumb/imgsize-1347570,msid-100581603,width-500,resizemode-4/100581603.jpg"
+            src="https://img.freepik.com/free-psd/youtube-news-channel-cover_23-2148972531.jpg?size=626&ext=jpg&ga=GA1.2.1602275145.1684761208&semt=sph"
             alt="">
         </div>
 
         <!-- 1 -->
         <div class="row mt-3">
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsum dolor sit ametdolor sit .</p>
               </div>
-              <div class="col-4 image-container">
+              <div class="col-lg-4 col-12  image-container order-0 order-lg-last">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-907767,msid-100894913,width-80,resizemode-4/100894913.jpg"
                   alt="">
@@ -176,11 +180,11 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsumdolor sit dolor sitdolor sit </p>
               </div>
-              <div class="col-6 image-container">
+              <div class="col-lg-6 col-12  image-container order-0 order-lg-last">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-34248,msid-100845147,width-80,resizemode-4/100845147.jpg"
                   alt="">
@@ -193,23 +197,23 @@
 
         <div class="row mt-2">
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem dolor sit dolor sitLorem ipsit dolor dolor </p>
               </div>
-              <div class="col-4 image-container">
+              <div class="col-lg-4 col-12  image-container order-0 order-lg-last">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-73464,msid-100894992,width-80,resizemode-4/100894992.jpg"
                   alt="">
               </div>
             </div>
           </div>
-          <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+          <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1">
                 <p>Lorem Lorem dolor sit dolor sitsit dolor sit .</p>
               </div>
-              <div class="col-6 image-container">
+              <div class="col-lg-6 col-12 image-container order-0">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-807543,msid-100893251,width-80,resizemode-4/100893251.jpg"
                   alt="">
@@ -222,11 +226,11 @@
 
         <div class="row mt-3">
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem Lorem dolor sit dolorsit dolor sit amet.</p>
               </div>
-              <div class="col-4 image-container">
+              <div class="col-lg-4 col-12  image-container order-0 order-lg-last">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-996187,msid-100892069,width-80,resizemode-4/100892069.jpg"
                   alt="">
@@ -235,11 +239,11 @@
           </div>
 
           <div class="col-6 ">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>LoremLorem ipsudolor sit sit dolor sit dolor.</p>
               </div>
-              <div class="col-6 image-container">
+              <div class="col-lg-6 col-12  image-container order-0 order-lg-last">
                 <img
                   src="	https://static.toiimg.com/thumb/imgsize-47818,msid-100887313,width-80,resizemode-4/100887313.jpg"
                   alt="">
@@ -253,11 +257,11 @@
 
         <div class="row mt-3">
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
-                <p>Lorem Lorem ipsum dolorsit dolor sit sit amet.</p>
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
+                <p>Lorem Lorem ipsum dolorsit dolor sit sit.</p>
               </div>
-              <div class="col-4 image-container">
+              <div class="col-lg-4 col-12  image-container order-0 order-lg-last">
                 <img
                   src="	https://static.toiimg.com/thumb/imgsize-955568,msid-100887943,width-80,resizemode-4/100887943.jpg"
                   alt="">
@@ -265,11 +269,11 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsumLorem ipsum dolorsit amet.</p>
               </div>
-              <div class="col-6 image-container">
+              <div class="col-lg-6 col-12  image-container order-0 order-lg-last">
                 <img
                   src="	https://static.toiimg.com/thumb/imgsize-22438,msid-100823136,width-80,resizemode-4/100823136.jpg"
                   alt="">
@@ -282,11 +286,11 @@
 
         <div class="row mt-3">
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsum dolor sitsit dolor sit amet.</p>
               </div>
-              <div class="col-4 image-container">
+              <div class="col-lg-4 col-12  image-container order-0 order-lg-last">
                 <img
                   src="	https://static.toiimg.com/thumb/imgsize-31302,msid-100757549,width-80,resizemode-4/100757549.jpg"
                   alt="">
@@ -294,11 +298,11 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-last ">
                 <p>Lorem ipsum dolor sit asit dolor sitmet.</p>
               </div>
-              <div class="col-6 image-container">
+              <div class="col-lg-6 col-12  image-container order-0 order-lg-last">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-578048,msid-87204807,width-80,resizemode-4/87204807.jpg"
                   alt="">
@@ -311,11 +315,11 @@
 
         <div class="row mt-3">
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsum dolor sit sit dolor sitamet.</p>
               </div>
-              <div class="col-4 image-container">
+              <div class="col-lg-4 col-12  image-container order-0 order-lg-last">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-49525,msid-100890385,width-80,resizemode-4/100890385.jpg"
                   alt="">
@@ -323,11 +327,11 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsum dolor sitsit dolor sit amet.</p>
               </div>
-              <div class="col-6 image-container">
+              <div class="col-lg-6 col-12  image-container order-0 order-lg-last">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-1210352,msid-100892703,width-80,resizemode-4/100892703.jpg"
                   alt="">
@@ -340,11 +344,11 @@
 
         <div class="row mt-3">
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsum dolor sitsit dolor sit amet.</p>
               </div>
-              <div class="col-4 image-container">
+              <div class="col-lg-4 col-12  image-container order-0 order-lg-last">
                 <img
                   src="	https://static.toiimg.com/thumb/imgsize-85548,msid-100890073,width-80,resizemode-4/100890073.jpg"
                   alt="">
@@ -352,11 +356,11 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsum dolor sit sit dolor sitamet.</p>
               </div>
-              <div class="col-6 image-container">
+              <div class="col-lg-6 col-12  image-container order-0 order-lg-last">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-518270,msid-100889470,width-80,resizemode-4/100889470.jpg"
                   alt="">
@@ -369,11 +373,11 @@
 
         <div class="row mt-3">
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsum dolor sit sit dolor sitamet.</p>
               </div>
-              <div class="col-4 image-container">
+              <div class="col-lg-4 col-12  image-container order-0 order-lg-last">
                 <img
                   src="	https://static.toiimg.com/thumb/imgsize-94236,msid-100890546,width-80,resizemode-4/100890546.jpg"
                   alt="">
@@ -381,11 +385,11 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsum dolor sit sit dolor sitamet.</p>
               </div>
-              <div class="col-6 image-container">
+              <div class="col-lg-6 col-12  image-container order-0 order-lg-last">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-1363054,msid-100887886,width-80,resizemode-4/100887886.jpg"
                   alt="">
@@ -398,11 +402,11 @@
 
         <div class="row mt-3">
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsum dolor sit sit dolor sitamet.</p>
               </div>
-              <div class="col-4 image-container">
+              <div class="col-lg-4 col-12  image-container order-0 order-lg-last">
                 <img
                   src="	https://static.toiimg.com/thumb/imgsize-887170,msid-100893541,width-80,resizemode-4/100893541.jpg"
                   alt="">
@@ -410,11 +414,11 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsum dolor sit sit dolor sitamet.</p>
               </div>
-              <div class="col-6 image-container">
+              <div class="col-lg-6 col-12  image-container order-0 order-lg-last">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-18448,msid-100888621,width-80,resizemode-4/100888621.jpg"
                   alt="">
@@ -426,11 +430,11 @@
 
         <div class="row mt-3">
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                 <p>Lorem ipsum dolor sitsit dolor sit amet.</p>
               </div>
-              <div class="col-4 image-container">
+              <div class="col-lg-4 col-12  image-container order-0 order-lg-last">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-58970,msid-100888882,width-80,resizemode-4/100888882.jpg"
                   alt="">
@@ -438,11 +442,11 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
-                <p>Lorem ipsum dolor sit amet.sit dolor sitlorem he</p>
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
+                <p>Lorem ipsum dolor sit amet.sit dolor </p>
               </div>
-              <div class="col-6 image-container">
+              <div class="col-lg-6 col-12  image-container order-0 order-lg-last">
                 <img
                   src="	https://static.toiimg.com/thumb/imgsize-1291641,msid-100877511,width-80,resizemode-4/100877511.jpg"
                   alt="">
@@ -453,7 +457,7 @@
                 <!-- 4 -->
 
 
-                <div class="row mt-3">
+                <!-- <div class="row mt-3">
                   <div class="col-6">
                     <div class="row shadow">
                       <div class="col-6 ">
@@ -478,16 +482,16 @@
                       </div>
                     </div>
                   </div>
-                </div>        <!-- 4 -->
+                </div>        4 -->
 
 
                 <div class="row mt-3">
                   <div class="col-6">
-                    <div class="row shadow">
-                      <div class="col-6 ">
+                    <div class="row shadow text-center text-lg-start">
+                      <div class="col-lg-6 col-12 order-1 order-lg-0 ">
                         <p>Lorem Lorem ipsum dolorsit dolor sit sit amet.</p>
                       </div>
-                      <div class="col-4 image-container">
+                      <div class="col-lg-4 col-12  image-container order-0 order-lg-last">
                         <img
                           src="	https://static.toiimg.com/thumb/imgsize-1973208,msid-100904119,width-80,resizemode-4/100904119.jpg"
                           alt="">
@@ -495,11 +499,11 @@
                     </div>
                   </div>
                   <div class="col-6">
-                    <div class="row shadow">
-                      <div class="col-6 ">
-                        <p>Lorem ipsumLorem ipsum dolorsit amet.</p>
+                    <div class="row shadow text-center text-lg-start">
+                      <div class="col-lg-6 col-12 order-1 order-lg-0 ">
+                        <p>Lorem ipsumLorem ipsum dolorsit amet.amit</p>
                       </div>
-                      <div class="col-6 image-container">
+                      <div class="col-lg-6 col-12  image-container order-0 order-lg-last">
                         <img
                           src="https://static.toiimg.com/thumb/imgsize-21984,msid-100907114,width-80,resizemode-4/100907114.jpg"
                           alt="">
@@ -511,11 +515,11 @@
 
         <div class="row mt-3">
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
-                <p>Lorem ipsum dolor sit amet Lorem, sit dolor ..</p>
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
+                <p>Lorem ipsum dolor sit amet Lorem, sit d</p>
               </div>
-              <div class="col-4 image-container">
+              <div class="col-lg-4 col-12  image-container order-0 order-lg-last">
                 <img
                   src="	https://static.toiimg.com/thumb/imgsize-85548,msid-100890073,width-80,resizemode-4/100890073.jpg"
                   alt="">
@@ -523,11 +527,11 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="row shadow">
-              <div class="col-6 ">
-                <p>Lorem ipsum dolor sit amesit dolor sitipsum. dolor sitt.</p>
+            <div class="row shadow text-center text-lg-start">
+              <div class="col-lg-6 col-12 order-1 order-lg-0 ">
+                <p>Lorem ipsum dolor sit amesit dolor . .</p>
               </div>
-              <div class="col-6 image-container">
+              <div class="col-lg-6 col-12  image-container order-0 order-lg-last">
                 <img
                   src="https://static.toiimg.com/thumb/imgsize-518270,msid-100889470,width-80,resizemode-4/100889470.jpg"
                   alt="">
@@ -538,49 +542,49 @@
       </div>
 
 
-      <div class="col-lg-2 col-12 border-end">
+      <div class="col-lg-2  border-end">
         <div class="row">
           <!-- 1 -->
-          <div class="col-12 image-container shadow">
+          <div class="col-lg-12 col-6 image-container shadow">
             <img src="7.webp" width="203px" ; height="108px;">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
 
           <!-- 2 -->
-          <div class="col-12 image-container shadow">
+          <div class="col-lg-12 col-6 image-container shadow">
             <img src="5.webp" width="203px" ; height="108px;">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
 
           <!-- 3 -->
-          <div class="col-12 image-container shadow">
+          <div class="col-lg-12 col-6 image-container shadow">
             <img src="4.webp" width="203px" ; height="108px;">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
           <!-- 4 -->
-          <div class="col-12 image-container shadow">
+          <div class="col-lg-12 col-6 image-container shadow">
             <img src="2.webp" width="203px" ; height="108px;">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
           <!-- 5 -->
-          <div class="col-12 image-container shadow">
+          <div class="col-lg-12 col-6 image-container shadow">
             <img src="1.png.webp" width="203px" ; height="108px;">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
           <!-- 6 -->
-          <div class="col-12 image-container shadow">
+          <div class="col-lg-12 col-6 image-container shadow">
             <img src="100550375.webp" width="203px" ; height="108px;">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
           <!-- 7 -->
-          <div class="col-12 image-container shadow">
+          <div class="col-lg-12 col-6 image-container shadow">
             <img src="100550673.webp" width="203px" ; height="108px;">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
           <!-- 8 -->
-          <div class="col-12 image-container shadow">
+          <div class="col-lg-12 col-6 image-container shadow">
             <img src="100560610.webp" width="203px" ; height="108px;">
-            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p> -->
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
         </div>
       </div>
@@ -596,24 +600,24 @@
             <p class="fs-5"><i class="fa-regular fa-calendar me-3"></i>Daily exclusives</p>
             <p class="fs-5"><i class="fa-solid fa-users me-3"></i>Expert opinion </p>
             <p class="fs-5"><i class="fa-solid fa-pen-to-square me-3"></i>ad lite experience</p>
-            <button class="btn btn-danger mx-3">Subscribe</button>
+            <button class="btn btn-danger mx-5">Subscribe</button>
           </div>
           <div class="col-12 ms-lg-4 mt-5 text-lg-start">
-            <li>Ayodhya laser show: A visual spectacle Surya....</li>
+            <li>Ayodhya laser show: A visual spectacle....</li>
             <hr>
-            <li>The first person Rinku Singh called after str...</li>
+            <li>The first person Rinku Singh called after...</li>
             <hr>
             <li>After finalising divorce with Charu, ...</li>
             <hr>
-            <li>Gujarat ATS arrests four with links to int'l ...</li>
+            <li>Gujarat ATS arrests four with links to  ...</li>
             <hr>
             <li>Adani exploring options for future of i ...</li>
             <hr>
-            <li>Trump took files on nuclear, defence, s th...</li>
+            <li>Trump took files on nuclear, defence, ...</li>
             <hr>
-            <li>'Will meet same fate as Dabholkar': S Pawar...</li>
+            <li>'Will meet same fate as Dabholkar': S ...</li>
             <hr>
-            <li>Ayodhya laser show: A visual spectac Surya...</li>
+            <li>Ayodhya laser show: A visual spectac ...</li>
             <hr>
           </div>
         </div>
@@ -636,16 +640,16 @@
             <a class="ps-3 text-decoration-none text-black">Live Cricket Score</a>
             <a class="ps-3 text-decoration-none text-black">Ind VS Aus High</a>
             <a class="ps-3 text-decoration-none text-black "> -></a>
-
+</a>
 
       </div>
     </div>
   </div>
-
+  <div id="about"></div>
   <div class="container">
     <div class="empty-div-1 m-3 "></div>
   </div>
-
+<div id="japan"></div>
   <div class="container my-5">
     <div class="row ">
       <div class="col-lg-4 col-12 border-end">
@@ -729,6 +733,8 @@
   </div>
 
   <!-- next -->
+<div id="brazil"></div>
+
   <div class="container mt-5">
     <div class="row">
       <h4>ENTERTAINMENT ></h4>
@@ -910,7 +916,7 @@
     <div class="col-lg-4 col-12 border-end"> <div class="row">
       <!-- <div class="col-6"> -->
       <div class="col-lg-4 col-12 image-container"><img src="	https://static.toiimg.com/thumb/imgsize-14352,msid-100692987,width-100,resizemode-4/100692987.jpg" alt=""></div>
-      <div class="col-lg-6 col-12">
+      <div class="col-lg-7 col-12">
         <h4 class="mt-3 mt-lg-0">Zara Hatke Zara <br> Bachke</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <p>Critic Rating <span class="bg-danger text-white py-1 px-2 rounded-4">*3.0</span></p>
@@ -1058,19 +1064,19 @@
 <div class="container mt-5">
   <h4>OPINIONS</h4>
   <div class="row">
-    <div class="col-lg-4 col-12 shadow py-4 border">
+    <div class="col-lg-4 col-12 shadow py-5 border">
       <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa!</h5>
       <p class="my-4 ms-3 text-body">India</p>
       <img src="12.jpg" class="rounded-5" alt="" width="50px">
       <span>Parvati sharma</span>
     </div>
-    <div class="col-lg-4 col-12 shadow py-4 border">
+    <div class="col-lg-4 col-12 shadow py-5 border">
       <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa! adipisicing elit. Ipsa!...</h5>
       <p  class="my-4 ms-3 text-body">Edit Page</p>
       <img src="13.jpg" class="rounded-5" alt="" width="50px">
       <span>Depankar Gupta</span>
     </div>
-    <div class="col-lg-4 col-12 shadow py-4 border">
+    <div class="col-lg-4 col-12 shadow py-5 border">
       <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa! Lorem ipsum dolor sit....</h5>
       <p class="my-4 ms-3 text-body">Edit Page World</p>
       <img src="14.webp" class="rounded-5" alt="" width="50px">
@@ -1088,7 +1094,7 @@
 
 
 
-
+<div id="crime"></div>
 <div class="container mt-5">
   <div class="row">
     <h4>CITY >  </h4>
@@ -1098,7 +1104,7 @@
       <h4 class="position-absolute text-white ms-3" style="margin-top:150px;">Woman raped & blackmailed in mp's <br> Ashoka Garden </h4>
       <div class="image-container">
         <img src="https://static.toiimg.com/thumb/imgsize-827152,msid-100907197,width-600,resizemode-4/100907197.jpg"
-          alt="" width="430px">
+          alt="" width="350px">
       </div>
       <!-- 1 -->
       <div class="row">
@@ -1159,11 +1165,15 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-3 col-12">
-      <h5>
-        ETIMES PHOTOS >
+    <div class="col-lg-3 col-12 text-center d-none d-lg-block">
+      <h5 class="fw-bold">
+        ETIMES PHOTOS 
       </h5>
-      
+      <p>
+        Full-stack knowledge refers to having a comprehensive understanding of both the front-end and back-end aspects of web development. It involves being proficient in various technologies, languages, and frameworks used to build and maintain a complete web application.</p>
+      <p>HTML (Hypertext Markup Language): Used for structuring and presenting content on the web.
+        CSS (Cascading Style Sheets): Used for styling and designing the visual appearance of web pages.
+        JavaScript: A programming language that enables  .</p>
      
 
 </div>
@@ -1256,6 +1266,14 @@
 
         </div>
       </div>
+    </div>
+    <div class="col-3 text-center d-none d-lg-block">
+      <h4 class="fw-bold">CORONA</h4>
+      <p>Corona, also known as COVID-19, is a viral illness caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). It was first identified in December 2019 in the city of Wuhan, China, and has since become a global pandemic.
+
+        The virus spreads primarily through respiratory droplets when an infected person coughs, sneezes, talks, or breathes heavily.
+        
+     </p>
     </div>
 
     </div>
@@ -1377,7 +1395,7 @@
            
            <span class="btn btn-danger ms-2"><i class="fa-regular fa-image"></i> 7 </span> <br> Ayurvedic herbs to prevent eye diseases</p>
           <div class="image-container">
-           <img src="https://static.toiimg.com/thumb/imgsize-1663262,msid-100901568,width-500,resizemode-4/100901568.jpg
+           <img src="https://img.freepik.com/free-vector/exciting-news-concept-illustration_114360-7158.jpg?size=626&ext=jpg&ga=GA1.2.1602275145.1684761208&semt=sph
            " alt="" width="400px" height="220px">
          </div>
          
@@ -1399,7 +1417,7 @@
            
                 <span class="btn btn-danger ms-2"><i class="fa-regular fa-image"></i> 12 </span> <br> Ayurvedic herbs to prevent eye diseases</p>
           <div class="image-container">
-           <img src="	https://static.toiimg.com/thumb/imgsize-85488,msid-100894833,width-500,resizemode-4/100894833.jpg" alt=""width="400px" height="220px">
+           <img src="	https://static.toiimg.com/thumb/imgsize-85488,msid-100894833,width-500,resizemode-4/100894833.jpg" alt=""width="300px" height="220px">
          </div>
          <div class="row d-none d-lg-flex">
           <div class="col-6 border-end">
@@ -1449,7 +1467,7 @@
              <span class="btn btn-danger ms-2"><i class="fa-regular fa-image"></i> 77 </span> <br> Ayurvedic herbs to prevent eye diseases</p>
             <div class="image-container">
              <img src="	https://static.toiimg.com/thumb/imgsize-123456,msid-100895605,width-500,resizemode-4/100895605.jpg
-             " alt="" width="400px" height="220px">
+             " alt="" width="300px" height="220px">
            </div>
            
            <div class="row d-none d-lg-flex">
@@ -1470,7 +1488,7 @@
              
                   <span class="btn btn-danger ms-2"><i class="fa-regular fa-image"></i> 52 </span> <br> Ayurvedic herbs to prevent eye diseases</p>
             <div class="image-container">
-             <img src="		https://static.toiimg.com/thumb/imgsize-35906,msid-100849233,width-500,resizemode-4/100849233.jpg" alt=""width="400px" height="220px">
+             <img src="		https://static.toiimg.com/thumb/imgsize-35906,msid-100849233,width-500,resizemode-4/100849233.jpg" alt=""width="300px" height="220px">
            </div>
            <div class="row d-none d-lg-flex">
             <div class="col-6 border-end">
@@ -1491,7 +1509,7 @@
              
                   <span class="btn btn-danger ms-2"><i class="fa-regular fa-image"></i> 8 </span> <br> Ayurvedic herbs to prevent eye diseases</p>
             <div class="image-container">
-             <img src="	https://femina.wwmindia.com/content/2023/jun/dating-thumb1686215136.jpg" alt=""width="400px" height="220px" >
+             <img src="	https://femina.wwmindia.com/content/2023/jun/dating-thumb1686215136.jpg" alt=""width="300px" height="220px" >
            </div>
            <div class="row">
             <div class="col-6 border-end">
@@ -1522,7 +1540,7 @@
              <span class="btn btn-danger ms-2"><i class="fa-regular fa-image"></i> 22 </span> <br> Ayurvedic herbs to prevent eye diseases</p>
             <div class="image-container">
              <img src="	https://static.toiimg.com/thumb/imgsize-26942,msid-100879909,width-500,resizemode-4/100879909.jpg
-             " alt="" width="350px" height="220px">
+             " alt="" width="300px" height="220px">
            </div>
            
            <div class="row d-none d-lg-flex">
@@ -1543,7 +1561,7 @@
              
                   <span class="btn btn-danger ms-2"><i class="fa-regular fa-image"></i> 8 </span> <br> Ayurvedic herbs to prevent eye diseases</p>
             <div class="image-container">
-             <img src="	https://static.toiimg.com/thumb/imgsize-983991,msid-100830153,width-500,resizemode-4/100830153.jpg" alt=""width="350px" height="220px">
+             <img src="	https://static.toiimg.com/thumb/imgsize-983991,msid-100830153,width-500,resizemode-4/100830153.jpg" alt=""width="300px" height="220px">
            </div>
            <div class="row d-none d-lg-flex">
             <div class="col-6 border-end">
@@ -1564,7 +1582,7 @@
              
                   <span class="btn btn-danger ms-2"><i class="fa-regular fa-image"></i> 99 </span> <br> Ayurvedic herbs to prevent eye diseases</p>
             <div class="image-container">
-             <img src="https://static.toiimg.com/thumb/imgsize-37670,msid-100882305,width-500,resizemode-4/100882305.jpg" alt=""width="350px" height="220px" >
+             <img src="https://static.toiimg.com/thumb/imgsize-37670,msid-100882305,width-500,resizemode-4/100882305.jpg" alt=""width="300px" height="220px" >
            </div>
            <div class="row">
             <div class="col-6 border-end">
@@ -1591,33 +1609,39 @@
            
           </div>
         </div>
+
+
+
         <div class="container mt-4">
           <div class="empty-div-1 m-3 "></div>
         </div>
-        <div class="contianer">\
-          <h1>VISUAL STORIES > </h1>
+
+        <div id="india"></div>
+
+        <div class="contianer">
+          <h5 class="fw-bold">VISUAL STORIES > </h5>
           <div class="row">
 <div class="col-lg-3 col-12">
   <div class="image-container text-center">
-    <img src="	https://static.toiimg.com/thumb/imgsize-23456,msid-100871528,width-600,resizemode-4/100871528.jpg" alt="" width="380px" height="550px" class="rounded-5">
+    <img src="	https://static.toiimg.com/thumb/imgsize-23456,msid-100871528,width-600,resizemode-4/100871528.jpg" alt="" width="300px" height="400px" class="rounded-5">
     <p class="text-white fs-5 fw-bold bg-white mx-auto" style="margin-top: -69px;">The 10 Avatar4s of Lord <br>Vishnu Imagined by AI</p>
   </div>
 </div>
 <div class="col-lg-3 col-12">
   <div class="image-container text-center">
-    <img src="		https://static.toiimg.com/thumb/imgsize-23456,msid-100896084,width-600,resizemode-4/100896084.jpg" alt="" width="380px" height="550px" class="rounded-5">
+    <img src="		https://static.toiimg.com/thumb/imgsize-23456,msid-100896084,width-600,resizemode-4/100896084.jpg" alt="" width="300px" height="400px" class="rounded-5">
     <p class="text-white fs-5 fw-bold bg-white mx-auto" style="margin-top: -69px;">Bhabhiji Ghar par Hain fame Vidhisha Srvastava goes for a bold maternity shoot</p>
   </div>
 </div>
 <div class="col-lg-3 col-12">
   <div class="image-container text-center">
-    <img src="	https://static.toiimg.com/thumb/imgsize-23456,msid-100830153,width-600,resizemode-4/100830153.jpg" alt="" width="380px" height="550px" class="rounded-5">
+    <img src="	https://static.toiimg.com/thumb/imgsize-23456,msid-100830153,width-600,resizemode-4/100830153.jpg" alt="" width="300px" height="400px" class="rounded-5">
     <p class="text-white fs-5 fw-bold bg-white mx-auto" style="margin-top: -69px;">French names on vogue for your baby girls</p>
   </div>
 </div>
 <div class="col-lg-3 col-12">
   <div class="image-container text-center">
-    <img src="	https://static.toiimg.com/thumb/imgsize-23456,msid-100900523,width-600,resizemode-4/100900523.jpg" alt="" width="380px" height="550px" class="rounded-5">
+    <img src="	https://static.toiimg.com/thumb/imgsize-23456,msid-100900523,width-600,resizemode-4/100900523.jpg" alt="" width="300px" height="400px" class="rounded-5">
     <p class="text-white fs-5 fw-bold bg-white mx-auto" style="margin-top: -69px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor!</p>
   </div>
 </div>
@@ -1638,10 +1662,10 @@
           <div class="row">
             <div class="col-lg-5 col-12">
               
-                <p class="position-absolute fs-3 fw-bold" style="margin-top: 240px;">
-                  <span class="bg-danger px-3 py-1 fs-5 rounded ms-3">00:44</span>  <br>Fitspiration! Sara Ali Khan shares a <br> glimpse of her workout routine  </p>
+                <!-- <p class="position-absolute fs-3 fw-bold" style="margin-top: 380px;">
+                  <span class="bg-danger px-3 py-1 fs-5 rounded ms-3">00:44</span>  <br>Fitspiration! Sara Ali Khan shares a <br> glimpse of her workout routine  </p> -->
                   <div class="image-container">
-                <img src="https://static.toiimg.com/thumb/imgsize-37366,msid-100911132,width-600,resizemode-4/100911132.jpg" alt="" height="400px" width="500px">
+                <img src="https://img.freepik.com/free-vector/breaking-news-live-streaming_23-2148501971.jpg?size=626&ext=jpg&ga=GA1.2.1602275145.1684761208&semt=sph" alt="" height="400px" width="500px">
               </div>
             </div>
             <div class="col-lg-2 col-6">
@@ -1682,6 +1706,7 @@
 
 
 
+        <div id="france"></div>
 
         <div class="container mt-5">
           <h6 class="fw-bold">MOST SEARCHED PRODUCTS ></h6>
